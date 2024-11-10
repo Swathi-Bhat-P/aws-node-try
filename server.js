@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+//sample api
 app.get('/api/get', (req,res)=>{
     res.status(200).send({message:"Hello from node js in AWS"})
 })
