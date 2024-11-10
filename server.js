@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-require("dotenv").config
+require("dotenv").config()
 //sample api
 app.get('/api/get', (req, res) => {
     res.status(200).send({ message: "Hello from node js in AWS" })
